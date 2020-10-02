@@ -1018,3 +1018,1473 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 99ms (Views: 85.1ms | ActiveRecord: 0.0ms | Allocations: 15936)
 
 
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:41:22 -0300
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 5.6ms | Allocations: 5073)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 152ms (Views: 139.0ms | ActiveRecord: 0.0ms | Allocations: 17980)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:41:55 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 11.6ms | Allocations: 3987)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 110.1ms | ActiveRecord: 0.0ms | Allocations: 11311)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:41:55 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:42:23 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.6ms | Allocations: 3790)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.0ms | Allocations: 11171)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:42:24 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:42:24 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 15)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms | Allocations: 6541)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:42:24 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:42:25 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms | Allocations: 6540)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:42:25 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:42:25 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms | Allocations: 6532)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:42:25 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:42:51 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 3.6ms | Allocations: 3761)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 82.7ms | ActiveRecord: 0.0ms | Allocations: 11094)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:42:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:42:52 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms | Allocations: 6543)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:42:52 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:43:21 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 3.6ms | Allocations: 3767)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 89ms (Views: 86.4ms | ActiveRecord: 0.0ms | Allocations: 11098)
+
+
+Started GET "/..." for 127.0.0.1 at 2020-10-02 14:43:21 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:44:02 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 3.9ms | Allocations: 3766)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 11101)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:47:31 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.1ms | Allocations: 4004)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 11310)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:47:59 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 10.8ms | Allocations: 4212)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 70.9ms | ActiveRecord: 0.0ms | Allocations: 11538)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:47:59 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms | Allocations: 6519)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:48:00 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 6540)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:48:49 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 3.8ms | Allocations: 4438)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 11768)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:49:03 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 7.7ms | Allocations: 4417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 83.7ms | ActiveRecord: 0.0ms | Allocations: 11723)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:49:26 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 6.3ms | Allocations: 4418)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 0.0ms | Allocations: 11724)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:49:27 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.1ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 6521)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:49:27 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90ms (Views: 88.0ms | ActiveRecord: 0.0ms | Allocations: 6532)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:50:37 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 2.6ms | Allocations: 1689)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2835)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    1: .container-fluid
+    2:     .row justify-content-md-center
+    3:         .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+    4:             .card{:style => "width: 18rem;"}
+    5:                 %img.card-img-top{:alt => "Card image cap", :src => "img.svg"}/   
+    6:                 .card-body    
+  
+app/views/index/index.html.haml:3
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:50:49 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 5.6ms | Allocations: 4434)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.0ms | Allocations: 11767)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:51:13 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 6.4ms | Allocations: 4422)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.0ms | Allocations: 11748)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:52:28 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.9ms | Allocations: 4423)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms | Allocations: 11735)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:52:29 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms | Allocations: 6527)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 14:52:29 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 14)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms | Allocations: 6520)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:39:59 -0300
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 12.2ms | Allocations: 7796)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 10035)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x0000000009ba2878>::PokeApi):
+    4:             .card{:style => "width: 18rem;"}
+    5:                 %img.card-img-top{:alt => "Card image cap", :src => "img.svg"}/   
+    6:                 .card-body    
+    7:                     %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+    8:                     %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+    9:                     %a.card-link{:href => "#"} Card link
+   10:                     %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:7
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:41:48 -0300
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1241.9ms | Allocations: 36985)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1371ms (Views: 1359.3ms | ActiveRecord: 0.0ms | Allocations: 49899)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:41:57 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 406.4ms | Allocations: 30648)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 457ms (Views: 456.6ms | ActiveRecord: 0.0ms | Allocations: 37336)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:41:59 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 417.1ms | Allocations: 30646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 479ms (Views: 478.4ms | ActiveRecord: 0.0ms | Allocations: 37174)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:42:00 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 411.8ms | Allocations: 30643)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 476ms (Views: 475.4ms | ActiveRecord: 0.0ms | Allocations: 37161)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:43:51 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.9ms | Allocations: 2377)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3527)
+
+
+  
+ActionView::Template::Error (Unbalanced brackets.):
+    2:     .row.align-items-center
+    3:         .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+    4:             .card{:style => "width: 18rem;"}
+    5:                 %img.card-img-top{ :src=  #{PokeApi.get(pokemon: 'rapidash').sprites.front_default}   
+    6:                 .card-body    
+    7:                     %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+    8:                     %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+  
+app/views/index/index.html.haml:5
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:44:00 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 9.3ms | Allocations: 5404)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 6562)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}
+                %img.card-img-top{ :src=  #{PokeApi.get(pokemon: 'rapidash').sprites.front_default}   }
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}
+5:                    %img.card-img-top{ :src=  #{PokeApi.get(pokemon: 'rapidash').sprites.front_default}   }
+6:                    .card-body    
+7:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+8:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+9:                        %a.card-link{:href => "#"} Card link
+10:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:6: syntax error, unexpected ';', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:6: syntax error, unexpected ';', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:6: syntax error, unexpected ';', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:6: syntax error, unexpected ';', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:6: syntax error, unexpected ';', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:6: syntax error, unexpected ';', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:44:30 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 3.9ms | Allocations: 5384)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 6527)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}
+                %img.card-img-top{ :src= {PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}
+5:                    %img.card-img-top{ :src= {PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+6:                    .card-body    
+7:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+8:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+9:                        %a.card-link{:href => "#"} Card link
+10:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:44:41 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 5.0ms | Allocations: 5395)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 6539)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}
+                %img.card-img-top{ :src= ' {PokeApi.get(pokemon: 'rapidash').sprites.front_default}' }
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}
+5:                    %img.card-img-top{ :src= ' {PokeApi.get(pokemon: 'rapidash').sprites.front_default}' }
+6:                    .card-body    
+7:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+8:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+9:                        %a.card-link{:href => "#"} Card link
+10:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected string literal, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected local variable or method, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected string literal, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected local variable or method, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected string literal, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected local variable or method, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected string literal, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected local variable or method, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected string literal, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected local variable or method, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected string literal, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected local variable or method, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:45:20 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.4ms | Allocations: 5384)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 6529)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}
+                %img.card-img-top{:src= {PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}
+5:                    %img.card-img-top{:src= {PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+6:                    .card-body    
+7:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+8:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+9:                        %a.card-link{:href => "#"} Card link
+10:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:10: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:47:05 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 403.3ms | Allocations: 35283)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 468ms (Views: 466.5ms | ActiveRecord: 0.0ms | Allocations: 42641)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:47:24 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 813.7ms | Allocations: 65889)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 878ms (Views: 874.6ms | ActiveRecord: 0.0ms | Allocations: 73226)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:49:48 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.1ms | Allocations: 5453)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 6601)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{:alt => "Card image cap", :src => {PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{:alt => "Card image cap", :src => {PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+10:                        %a.card-link{:href => "#"} Card link
+11:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:50:45 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.5ms | Allocations: 5445)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 6593)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{:alt => "Card image cap", src:{PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{:alt => "Card image cap", src:{PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+10:                        %a.card-link{:href => "#"} Card link
+11:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:50:56 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.4ms | Allocations: 5431)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 6579)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{:alt => "Card image cap", :src={PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{:alt => "Card image cap", :src={PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+10:                        %a.card-link{:href => "#"} Card link
+11:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting =>
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting =>
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting =>
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting =>
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting =>
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '{', expecting =>
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:52:57 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.6ms | Allocations: 5407)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 6555)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{src={PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{src={PokeApi.get(pokemon: 'rapidash').sprites.front_default} }
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+10:                        %a.card-link{:href => "#"} Card link
+11:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected '}', expecting =>
+app/views/index/index.html.haml:11: syntax error, unexpected `ensure', expecting ')'
+app/views/index/index.html.haml:11: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:53:35 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 436.6ms | Allocations: 37521)
+Completed 500 Internal Server Error in 450ms (ActiveRecord: 0.0ms | Allocations: 38668)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<String:0x000000000ce526d8>):
+    2:     .row.align-items-center
+    3:         .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+    4:             .card{:style => "width: 18rem;"}            
+    5:                 %img.card-img-top{src=PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+    6:                   
+    7:                 .card-body    
+    8:                     %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+  
+app/views/index/index.html.haml:5
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:54:15 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.1ms | Allocations: 5380)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 6528)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{:src=PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{:src=PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+10:                        %a.card-link{:href => "#"} Card link
+11:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:5: syntax error, unexpected constant, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected constant, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected constant, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected constant, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected constant, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+app/views/index/index.html.haml:5: syntax error, unexpected constant, expecting ')'
+app/views/index/index.html.haml:5: syntax error, unexpected ')', expecting `end'
+Started GET "/" for 127.0.0.1 at 2020-10-02 15:54:25 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 420.8ms | Allocations: 37467)
+Completed 500 Internal Server Error in 431ms (ActiveRecord: 0.0ms | Allocations: 38614)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<String:0x000000000cc28b78>):
+    2:     .row.align-items-center
+    3:         .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+    4:             .card{:style => "width: 18rem;"}            
+    5:                 %img.card-img-top{src=PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+    6:                   
+    7:                 .card-body    
+    8:                     %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+  
+app/views/index/index.html.haml:5
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:03:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 817.5ms | Allocations: 66251)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 887ms (Views: 884.9ms | ActiveRecord: 0.0ms | Allocations: 73605)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:03:24 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 872.0ms | Allocations: 66242)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 938ms (Views: 936.1ms | ActiveRecord: 0.0ms | Allocations: 73592)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:05:48 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1740.8ms | Allocations: 73890)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1798ms (Views: 1796.5ms | ActiveRecord: 0.0ms | Allocations: 81236)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:07:18 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 5.1ms | Allocations: 5552)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 6690)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|{ 
+                        - if text.language.name == "en"
+                        - %p.card-text #{text.flavor_text}
+                        - }                   
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|{ 
+10:                            - if text.language.name == "en"
+11:                            - %p.card-text #{text.flavor_text}
+12:                            - }                   
+13:                        %a.card-link{:href => "#"} Card link
+14:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:10: syntax error, unexpected ';', expecting '}'
+app/views/index/index.html.haml:11: unknown type of %string
+app/views/index/index.html.haml:11: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:10: syntax error, unexpected ';', expecting '}'
+app/views/index/index.html.haml:11: unknown type of %string
+app/views/index/index.html.haml:11: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:10: syntax error, unexpected ';', expecting '}'
+app/views/index/index.html.haml:11: unknown type of %string
+app/views/index/index.html.haml:11: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:10: syntax error, unexpected ';', expecting '}'
+app/views/index/index.html.haml:11: unknown type of %string
+app/views/index/index.html.haml:11: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:10: syntax error, unexpected ';', expecting '}'
+app/views/index/index.html.haml:11: unknown type of %string
+app/views/index/index.html.haml:11: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:10: syntax error, unexpected ';', expecting '}'
+app/views/index/index.html.haml:11: unknown type of %string
+app/views/index/index.html.haml:11: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:08:03 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 7.0ms | Allocations: 5836)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 6974)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+                        - { if text.language.name == "en" 
+                        %p.card-text #{text.flavor_text} 
+                        -}                   
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+10:                            - { if text.language.name == "en" 
+11:                            %p.card-text #{text.flavor_text} 
+12:                            -}                   
+13:                        %a.card-link{:href => "#"} Card link
+14:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:08:12 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.6ms | Allocations: 5831)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 6969)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+                        - { if text.language.name == "en" 
+                        %p.card-text #{text.flavor_text} 
+                        - }                   
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+10:                            - { if text.language.name == "en" 
+11:                            %p.card-text #{text.flavor_text} 
+12:                            - }                   
+13:                        %a.card-link{:href => "#"} Card link
+14:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:12: syntax error, unexpected '}', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected `ensure', expecting `end'
+app/views/index/index.html.haml:14: syntax error, unexpected ';', expecting =>
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:08:20 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 4.5ms | Allocations: 5813)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 6952)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check .container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+                  
+                .card-body    
+                    %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+                    -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+                        - { if text.language.name == "en" 
+                        %p.card-text #{text.flavor_text}                        
+                                        
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link
+
+):
+1:    .container-fluid
+2:        .row.align-items-center
+3:            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+4:                .card{:style => "width: 18rem;"}            
+5:                    %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+6:                      
+7:                    .card-body    
+8:                        %h5.card-title #{PokeApi.get(pokemon: 'rapidash').name}
+9:                        -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+10:                            - { if text.language.name == "en" 
+11:                            %p.card-text #{text.flavor_text}                        
+12:                                            
+13:                        %a.card-link{:href => "#"} Card link
+14:                        %a.card-link{:href => "#"} Another link
+  
+app/views/index/index.html.haml:12: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:15: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:12: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:15: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:12: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:15: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:12: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:15: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:12: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:15: syntax error, unexpected end-of-input, expecting `end'
+app/views/index/index.html.haml:12: syntax error, unexpected ';', expecting =>
+app/views/index/index.html.haml:15: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:08:29 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1212.1ms | Allocations: 72948)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1307ms (Views: 1305.4ms | ActiveRecord: 0.0ms | Allocations: 80287)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:08:46 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1240.0ms | Allocations: 72715)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1307ms (Views: 1305.8ms | ActiveRecord: 0.0ms | Allocations: 80059)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:17:30 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 468.7ms | Allocations: 36589)
+Completed 500 Internal Server Error in 498ms (ActiveRecord: 0.0ms | Allocations: 37738)
+
+
+  
+ActionView::Template::Error (Undefined endpoint; 'name' not defined by https://pokeapi.co/):
+     5:                 %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+     6:                   
+     7:                 .card-body    
+     8:                     %h5.card-title #{PokeApi.get(:name).results[4].get.name}
+     9:                     -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+    10:                         - if text.language.name == "en" 
+    11:                             %p.card-text #{text.flavor_text}                  
+  
+app/views/index/index.html.haml:8
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:18:56 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 379.6ms | Allocations: 36728)
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 0.0ms | Allocations: 37877)
+
+
+  
+ActionView::Template::Error (Undefined endpoint; 'name' not defined by https://pokeapi.co/):
+     5:                 %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+     6:                   
+     7:                 .card-body    
+     8:                 - PokeApi.get(:name).results[4].get.name do |text|
+     9:                     - if text.language.name == "en" 
+    10:                         %h5.card-title #{text.name}
+    11:                     -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+  
+app/views/index/index.html.haml:8
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:19:04 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 423.1ms | Allocations: 36726)
+Completed 500 Internal Server Error in 431ms (ActiveRecord: 0.0ms | Allocations: 37875)
+
+
+  
+ActionView::Template::Error (Undefined endpoint; 'name' not defined by https://pokeapi.co/):
+     5:                 %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+     6:                   
+     7:                 .card-body    
+     8:                 - PokeApi.get(:name).results[4].get do |text|
+     9:                     - if text.language.name == "en" 
+    10:                         %h5.card-title #{text.name}
+    11:                     -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+  
+app/views/index/index.html.haml:8
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:20:05 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 2008.9ms | Allocations: 41445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2081ms (Views: 2078.7ms | ActiveRecord: 0.0ms | Allocations: 48792)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:20:21 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1635.2ms | Allocations: 47674)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1706ms (Views: 1703.9ms | ActiveRecord: 0.0ms | Allocations: 55015)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:21:34 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 2.9ms | Allocations: 1958)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 3113)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+     6:                   
+     7:                 .card-body    
+     8:                     - PokeApi.get(:ability).results[4].get do |text|                        
+     9:                             %h5.card-title #{text.name}
+    10:                     -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+    11:                         - if text.language.name == "en" 
+    12:                             %p.card-text #{text.flavor_text}                  
+  
+app/views/index/index.html.haml:9
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:21:36 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 2.8ms | Allocations: 1957)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2381)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+     6:                   
+     7:                 .card-body    
+     8:                     - PokeApi.get(:ability).results[4].get do |text|                        
+     9:                             %h5.card-title #{text.name}
+    10:                     -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+    11:                         - if text.language.name == "en" 
+    12:                             %p.card-text #{text.flavor_text}                  
+  
+app/views/index/index.html.haml:9
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:21:39 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1588.8ms | Allocations: 47762)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1644ms (Views: 1642.0ms | ActiveRecord: 0.0ms | Allocations: 55112)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:21:52 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1560.5ms | Allocations: 47603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1628ms (Views: 1626.2ms | ActiveRecord: 0.0ms | Allocations: 54947)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:22:32 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1575.7ms | Allocations: 47515)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1666ms (Views: 1664.0ms | ActiveRecord: 0.0ms | Allocations: 54859)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-02 16:22:46 -0300
+Processing by IndexController#index as HTML
+  Rendering index/index.html.haml within layouts/application
+  Rendered index/index.html.haml within layouts/application (Duration: 1596.9ms | Allocations: 47549)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1684ms (Views: 1681.8ms | ActiveRecord: 0.0ms | Allocations: 54893)
+
+

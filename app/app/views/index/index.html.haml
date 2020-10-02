@@ -1,1 +1,14 @@
-%h1 bien venido
+.container-fluid
+    .row.align-items-center
+        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .card{:style => "width: 18rem;"}            
+                %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+                  
+                .card-body    
+                    - PokeApi.get(:ability).results[4].get do |text|                        
+                        %h5.card-title @text
+                    -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+                        - if text.language.name == "en" 
+                            %p.card-text #{text.flavor_text}                  
+                    %a.card-link{:href => "#"} Card link
+                    %a.card-link{:href => "#"} Another link

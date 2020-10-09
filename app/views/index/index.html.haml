@@ -1,14 +1,52 @@
-.container-fluid
-    .row.align-items-center
-        .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
-            .card{:style => "width: 18rem;"}            
-                %img.card-img-top{"src"=>PokeApi.get(pokemon: 'rapidash').sprites.front_default}
+%script{:src => "https://kit.fontawesome.com/7912526426.js", :crossorigin => "anonymous"}
+
+%nav.navbar-white.bg-white.shadow.pb-4.pt-4.fixed-top
+    .container
+        .row
+            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .col-xg-4.col-lg-4.col-md-4.col-sm-8.col-10
+                %form{:action => "search"}
+                    %div{:id => "search-border"}
+                        .input-group
+                            %input.search-bar.round-left{:type => "text", :name => "name", :id => "search", :placeholder => "Pesquise o nome exato do pokemon",
+                             :onfocus => "document.getElementById(\"search-border\").classList.add(\"search-border\");",
+                              :onblur => "document.getElementById(\"search-border\").classList.remove(\"search-border\");"}
+                            %button.search-btn.round-right{:type => "submit", :id => "inspect"}
+                                %span
+                                    .i.fa.fa-search.fa-sm
+-if @pokename 
+    .container-fluid
+    .d-flex.mx-auto                      
+        .card.align-items-center.col-2.p-1.mt-5.ml-5
+            .card-header
+                %h5.card-title #{PokeApi.get(pokemon:@pokename).name}
+                            
+            %img.img-fluid.wd-50{"src"=>PokeApi.get(pokemon: @pokename ).sprites.front_default}
                   
-                .card-body    
-                    - PokeApi.get(:ability).results[4].get do |text|                        
-                        %h5.card-title @text
-                    -PokeApi.get(pokemon_species: 'rapidash').flavor_text_entries.find do |text|
+                .card-body.overflow-auto                                                                                      
+                    -PokeApi.get(pokemon_species: @pokename ).flavor_text_entries.find do |text|
                         - if text.language.name == "en" 
                             %p.card-text #{text.flavor_text}                  
-                    %a.card-link{:href => "#"} Card link
-                    %a.card-link{:href => "#"} Another link
+                    %p Numero: #{PokeApi.get(pokemon: @pokename).id}
+                    -PokeApi.get(pokemon: @pokename ).types.each do |types|
+                        %card-subtitle.text-muted #{types.type.name}
+                .card-footer
+                    =link_to "adicionar", new_pokemon_path(name:@pokename)    
+-else 
+    .row
+        .col-md-1           
+        - @pokemons.each do |pokemon|                            
+            .card.align-items-center.col-2.p-1.mt-5.ml-5
+                .card-header
+                    %h5.card-title #{PokeApi.get(pokemon: pokemon.name ).name}
+                            
+                %img.img-fluid{"src"=> PokeApi.get(pokemon: pokemon.name  ).sprites.front_default}
+                  
+                    .card-body.overflow-auto                                                                                      
+                        -PokeApi.get(pokemon_species: pokemon.name  ).flavor_text_entries.find do |text|
+                            - if text.language.name == "en" 
+                                %p.card-text #{text.flavor_text}                  
+                        %p Numero: #{PokeApi.get(pokemon: pokemon.name ).id}
+                        -PokeApi.get(pokemon: pokemon.name  ).types.each do |types|
+                            %card-subtitle.text-muted #{types.type.name}
+                    

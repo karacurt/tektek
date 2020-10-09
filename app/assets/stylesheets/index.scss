@@ -1,3 +1,22 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.card{   
+    height: 18rem;
+      
+}
+.card-body{
+height: 18rem;
+width:100%;
+padding:0;
+text-align: center;
+}
+
+.img-fluid{
+    height: 5rem;
+}
+.card-body::-webkit-scrollbar{    
+    display: none;
+}

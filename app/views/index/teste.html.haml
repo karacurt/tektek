@@ -1,0 +1,33 @@
+%script{:src => "https://kit.fontawesome.com/7912526426.js", :crossorigin => "anonymous"}
+
+%nav.navbar-white.bg-white.shadow.pb-4.pt-4.fixed-top
+    .container
+        .row
+            .col-xg-8.col-lg-8.col-md-8.col-sm-4.col-1
+            .col-xg-4.col-lg-4.col-md-4.col-sm-8.col-10
+                %form{:action => "search"}
+                    %div{:id => "search-border"}
+                        .input-group
+                            %input.search-bar.round-left{:type => "text", :name => "name", :id => "search", :placeholder => "Pesquisa",
+                             :onfocus => "document.getElementById(\"search-border\").classList.add(\"search-border\");",
+                              :onblur => "document.getElementById(\"search-border\").classList.remove(\"search-border\");"}
+                            %button.search-btn.round-right{:type => "submit", :id => "inspect"}
+                                %span
+                                    .i.fa.fa-search.fa-sm
+
+.container-fluid
+    .d-flex.mx-auto                             
+        .card.align-items-center.col-2.p-1.mt-5.ml-5
+            .card-header
+                %h5.card-title nome
+                            
+            %img.img-fluid{"src"=>"pokeball.png"}
+                  
+            .card-body.overflow-auto                                       
+                    
+                %p.card-text texto               
+                %p Numero: 1                    
+                %card-subtitle.text-muted fogo
+            .card-footer
+                =link_to "adicionar", new_pokemon_path(PokeApi.get(pokemon: 'rapidash').id)    
+

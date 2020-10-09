@@ -101,6 +101,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.3-x64-mingw32)
     poke-api-v2 (0.1.0)
     public_suffix (4.0.6)
     puma (4.3.6)
@@ -200,6 +201,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   haml
   jbuilder (~> 2.7)
+  pg
   poke-api-v2
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.3)

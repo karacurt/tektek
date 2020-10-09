@@ -22,7 +22,7 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default	  <<: *default
+  <<: *default	
   database: myapp_production	  host: <%= ENV.fetch("DB_HOST") { 0 } %>
   username: myapp	  username: <%= ENV.fetch("DB_USERNAME") { 0 } %>
   password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %> 	  database: <%= ENV.fetch("DB_DATABASE") { 0 } %>

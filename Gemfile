@@ -56,3 +56,5 @@ gem 'haml'
 gem 'poke-api-v2'
 
 gem "pg"
+
+gem 'dotenv-rails'

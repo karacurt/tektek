@@ -1,4 +1,5 @@
 %script{:src => "https://kit.fontawesome.com/7912526426.js", :crossorigin => "anonymous"}
+%link{:href => "//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon", :rel => "stylesheet", :type => "text/css"}
 
 %nav.navbar-white.bg-white.shadow.pb-4.pt-4.fixed-top
     .container
@@ -9,15 +10,14 @@
                     %div{:id => "search-border"}
                         .input-group
                             %input.search-bar.round-left{:type => "text", :name => "name", :id => "search", :placeholder => "Pesquise o nome exato do pokemon",
-                             :onfocus => "document.getElementById(\"search-border\").classList.add(\"search-border\");",
-                              :onblur => "document.getElementById(\"search-border\").classList.remove(\"search-border\");"}
+                            :onfocus => "document.getElementById(\"search-border\").classList.add(\"search-border\");",
+                            :onblur => "document.getElementById(\"search-border\").classList.remove(\"search-border\");"}
                             %button.search-btn.round-right{:type => "submit", :id => "inspect"}
                                 %span
                                     .i.fa.fa-search.fa-sm
--if @pokename 
-    .container-fluid
-    .d-flex.mx-auto                      
-        .card.align-items-center.col-2.p-1.mt-5.ml-5
+-if @pokename     
+    .flex-container.wrap.justify-content-center                  
+        .card.poke-card.align-items-center.flex-item
             .card-header
                 %h5.card-title #{PokeApi.get(pokemon:@pokename).name}
                             
@@ -27,27 +27,32 @@
                     -PokeApi.get(pokemon_species: @pokename ).flavor_text_entries.find do |text|
                         - if text.language.name == "en" 
                             %p.card-text #{text.flavor_text}                  
-                    %p Numero: #{PokeApi.get(pokemon: @pokename).id}
-                    -PokeApi.get(pokemon: @pokename ).types.each do |types|
-                        %card-subtitle.text-muted #{types.type.name}
-                .card-footer
-                    =link_to "adicionar", new_pokemon_path(name:@pokename)    
+                    %h6.card-subtitle.mb-2.text-muted ##{PokeApi.get(pokemon:  @pokename ).id} 
+                    -PokeApi.get(pokemon: @pokename  ).types.each do |types|
+                        .card-footer.footer-hability.justify-content-center
+                            .card-subtitle #{types.type.name}
+                .card-footer.footer-add.justify-content-center
+                    =link_to new_pokemon_path(name:@pokename) do    
+                        .card-subtitle.add-sub.stretched-link adicionar
+                    
 -else 
     -if @pokemons
-        .row
-            .col-md-1                   
-            - @pokemons.each do |pokemon|                            
-                .card.align-items-center.col-2.p-1.mt-5.ml-5
+        .flex-container.wrap.justify-content-center.mx-auto.col-xg-10.col-lg-10.col-md-10.col-sm-1                                          
+            - @pokemons.each do |pokemon|                                             
+                .card.poke-card.align-items-center.flex-item 
                     .card-header
                         %h5.card-title #{PokeApi.get(pokemon: pokemon.name ).name}
-                            
+                         
                     %img.img-fluid{"src"=> PokeApi.get(pokemon: pokemon.name  ).sprites.front_default}
                   
                         .card-body.overflow-auto                                                                                      
                             -PokeApi.get(pokemon_species: pokemon.name  ).flavor_text_entries.find do |text|
                                 - if text.language.name == "en" 
                                     %p.card-text #{text.flavor_text}                  
-                            %p Numero: #{PokeApi.get(pokemon: pokemon.name ).id}
-                            -PokeApi.get(pokemon: pokemon.name  ).types.each do |types|
-                                %card-subtitle.text-muted #{types.type.name}
+                            %h6.card-subtitle.mb-2.text-muted ##{PokeApi.get(pokemon: pokemon.name ).id} 
+                            
+                    
+                    -PokeApi.get(pokemon: pokemon.name  ).types.each do |types|
+                        .card-footer.footer-hability.justify-content-center
+                            .card-subtitle #{types.type.name}
                     
